@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dm_movie_item_height">160dp</dimen>
+    <dimen name="dm_movie_headline_text_size">17dp</dimen>
+    <dimen name="dm_movie_trailer_not_found_text_size">10dp</dimen>
+
+</resources>

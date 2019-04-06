@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">The Movie DB</string>
+
+    <string name="async_menu_item_name">Open Async Task Activity</string>
+    <string name="thread_menu_item_name">Open Thread Handler Activity</string>
+    <string name="service_menu_item_name">Open Background Service Activity</string>
+    <string name="clean_database_menu_item_name">Clean Database</string>
+    <string name="wishlist_menu_item_name">Wishlist</string>
+
+    <string name="btn_create">create</string>
+    <string name="btn_start">start</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_service">start service</string>
+    <string name="btn_intent_service">start intentservice</string>
+    <string name="btn_movie_trailer">movie trailer</string>
+    <string name="tv_progress_headline">The progress</string>
+    <string name="tv_empty_wishlist">Your wishlist is empty</string>
+    <string name="tv_trailer_not_found">Movie trailer not found</string>
+
+    <string name="notification_message">%d%%</string>
+    <string name="notification_title">Downloading...</string>
+    <string name="notification_download_finished">Download Finished</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dm_movie_item_height">
+
+
+    <ImageView
+        android:id="@+id/iv_smallIcon"
+        android:layout_width="86dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_nameHeadline"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textColor="@color/cl_purple"
+        android:textSize="@dimen/dm_movie_headline_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_smallIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_overviewText"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:text=""
+        android:textColor="@color/cl_black"
+        app:layout_constraintStart_toEndOf="@+id/iv_smallIcon"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nameHeadline" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

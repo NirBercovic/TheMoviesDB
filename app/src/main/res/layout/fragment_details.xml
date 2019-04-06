@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v4.widget.ContentLoadingProgressBar
+                android:id="@+id/pb_spinner"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_bannerPoster" />
+
+
+            <TextView
+                android:id="@+id/tv_releasedHeadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="Released: "
+                android:textColor="@color/cl_black"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                app:layout_constraintStart_toEndOf="@+id/iv_sidePoster"
+                app:layout_constraintTop_toBottomOf="@+id/tv_nameHeadline" />
+
+            <TextView
+                android:id="@+id/tv_overviewHeadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:text="Overview:"
+                android:textColor="@color/cl_black"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_sidePoster" />
+
+            <TextView
+                android:id="@+id/tv_overviewText"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text=""
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_overviewHeadline" />
+
+            <Button
+                android:id="@+id/btn_trailer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/btn_movie_trailer"
+                app:layout_constraintStart_toEndOf="@+id/iv_sidePoster"
+                app:layout_constraintTop_toBottomOf="@+id/tv_releasedHeadline" />
+
+            <TextView
+                android:id="@+id/tv_nameHeadline"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                android:text=""
+                android:textColor="@color/cl_purple"
+                android:textSize="@dimen/dm_movie_headline_text_size"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/iv_sidePoster"
+                app:layout_constraintTop_toBottomOf="@+id/iv_bannerPoster" />
+
+            <TextView
+                android:id="@+id/tv_dateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:text=""
+                android:textColor="@color/cl_black"
+                android:textSize="15dp"
+                app:layout_constraintStart_toEndOf="@+id/tv_releasedHeadline"
+                app:layout_constraintTop_toBottomOf="@+id/tv_nameHeadline" />
+
+            <ImageView
+                android:id="@+id/iv_bannerPoster"
+                android:layout_width="526dp"
+                android:layout_height="239dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_sidePoster"
+                android:layout_width="130dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_bannerPoster"/>
+
+            <ImageButton
+                android:id="@+id/ib_downloadPoster"
+                android:layout_width="37dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="324dp"
+                android:layout_marginLeft="324dp"
+                android:layout_marginTop="176dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/download_icon"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_bannerPoster"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_trailerNotFound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/tv_trailer_not_found"
+                android:textColor="@color/cl_red"
+                android:visibility="gone"
+                android:textSize="@dimen/dm_movie_trailer_not_found_text_size"
+                app:layout_constraintStart_toStartOf="@+id/btn_trailer"
+                app:layout_constraintTop_toBottomOf="@+id/btn_trailer" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>

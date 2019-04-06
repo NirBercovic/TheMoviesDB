@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/async" android:title="@string/async_menu_item_name"></item>
+    <item android:id="@+id/thread" android:title="@string/thread_menu_item_name"></item>
+    <item android:id="@+id/service" android:title="@string/service_menu_item_name"></item>
+    <item android:id="@+id/clean_database" android:title="@string/clean_database_menu_item_name"></item>
+    <item android:id="@+id/favorite" android:title="@string/wishlist_menu_item_name"></item>
+    <item   android:id="@+id/sv_search"
+            android:title="Search"
+            app:showAsAction="ifRoom|collapseActionView"
+            app:actionViewClass="android.support.v7.widget.SearchView"
+    />
+
+</menu>
