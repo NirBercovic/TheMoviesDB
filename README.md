@@ -11,5 +11,11 @@ Technologies and libraries used:
 - NotificationBuilder.
 - BroadcastReceiver.
 
-![alt text](https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131439_The%20Movie%20DB.jpg =250x250)
+Back-end support:
+The Movie DB API: https://developers.themoviedb.org
 
+<img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131439_The%20Movie%20DB.jpg" width="200" height="400" />
+
+<img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131450_The%20Movie%20DB.jpg" width="200" height="400" />
+
+<img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131510_The%20Movie%20DB.jpg" width="200" height="400" />
