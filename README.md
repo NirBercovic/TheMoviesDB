@@ -11,5 +11,5 @@ Technologies and libraries used:
 - NotificationBuilder.
 - BroadcastReceiver.
 
-![alt text](https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131439_The%20Movie%20DB.jpg)
+![alt text](https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131439_The%20Movie%20DB.jpg =250x250)
 
