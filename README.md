@@ -14,6 +14,6 @@ Technologies and libraries used:
 Back-end support:
  - The Movie DB API: https://developers.themoviedb.org
 
-| Movies List  | Movie Details | My Movies Wishlist |
-| ------------- | ------------- | ------------- |
-| <img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131439_The%20Movie%20DB.jpg" width="200" height="400" /> | <img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131450_The%20Movie%20DB.jpg" width="200" height="400" />  | <img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131510_The%20Movie%20DB.jpg" width="200" height="400" />
+| Movies List  | Movie Details | My Movies Wishlist | Search Movies |
+| ------------- | ------------- | ------------- | ------------- |
+| <img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131439_The%20Movie%20DB.jpg" width="200" height="400" /> | <img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131450_The%20Movie%20DB.jpg" width="200" height="400" />  | <img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-131510_The%20Movie%20DB.jpg" width="200" height="400" /> | <img src="https://github.com/NirBercovic/TheMoviesDB/blob/master/app/src/main/res/drawable/Screenshot_20190406-142431_The%20Movie%20DB.jpg" width="200" height="400" />
