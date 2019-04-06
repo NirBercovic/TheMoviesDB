@@ -12,8 +12,7 @@ Technologies and libraries used:
 - BroadcastReceiver.
 
 Back-end support:
-
-The Movie DB API: https://developers.themoviedb.org
+ - The Movie DB API: https://developers.themoviedb.org
 
 | Movies List  | Movie Details | My Movies Wishlist |
 | ------------- | ------------- | ------------- |
